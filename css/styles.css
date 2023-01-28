@@ -1,4 +1,4 @@
-body {
+.body {
 	font-family: 'Roboto', sans-serif;
 	font-style: normal font-size;
 	color: #2E2F42;
@@ -26,6 +26,10 @@ body {
 	letter-spacing: 0.03em;
 	color: #4D5AE5;
 	color: #2E2F42;
+}
+
+.logo-web {
+	color: #4D5AE5;
 }
 
 .header-list {
@@ -68,104 +72,226 @@ body {
 	background: #4D5AE5;
 	font-weight: 500;
 	font-size: 16px;
-	line-height: 24px;
-	letter-spacing: 0.04em;
+	line-height: calc(24 / 16) letter-spacing: 0.04em;
 	color: #FFFFFF;
 }
 
-.section-benefits {
+/* ------------------фильтр в портфолио-------- */
+/* спрятать заголовок */
+
+.main-btn {
+	font-family: 'Roboto';
+	background: #F4F4FD;
+	color: #4D5AE5;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: calc(24 / 16);
+	letter-spacing: 0.04em;
+}
+
+.main-header {
+	font-size: 0;
+}
+
+.main-list-a {
+	font-family: 'Roboto';
+	width: 69px;
+	height: 48px;
+	background: #404BBF;
+	color: #FFFFFF;
+}
+
+.main-list-b {
+	font-family: 'Roboto';
+	width: 116px;
+	height: 48px;
+}
+
+.main-list-c {
+	font-family: 'Roboto';
+	width: 78px;
+	height: 48px;
+}
+
+.main-list-d {
+	font-family: 'Roboto';
+	width: 101px;
+	height: 48px;
+}
+
+.main-list-e {
+	font-family: 'Roboto';
+	width: 126px;
+	height: 48px;
+}
+
+/* -----------секция в index.html----------- */
+
+.section-benefits {}
+
+/* треба сховати заголовок h2*/
+.benefits-header-a {
+	font-size: 0;
+}
+
+.benefits-header {
+	width: 264px;
+	height: 24px;
+	color: #2E2F42;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: calc(24 /20);
+	letter-spacing: 0.02em;
+}
+
+.benefits-list {}
+
+.benefits-item {}
+
+.benefits-text {
+	width: 264px;
+	height: 72px;
+	color: #434455;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: calc(24 / 16);
+	letter-spacing: 0.02em;
+}
+
+.section-gallery {}
+
+.gallery-header-portfolio {
+	font-size: 0;
+}
+
+.gallery-link {
+	width: 360px;
+	height: 300px;
+}
+
+.gallery-text-a {
+	width: 290px;
+	height: 24px;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: calc(24 / 20);
+	letter-spacing: 0.02em;
+	color: #2E2F42;
+	;
+}
+
+.gallery-text-b {
+	width: 30px;
+	height: 24px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: calc(24 / 16);
+	letter-spacing: 0.02em;
+	color: #434455;
+}
+
+/* --------gallerey in index.html-------------- */
+
+.section-gallery {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: calc(40 / 36);
+	letter-spacing: 0.02em;
+	color: #2E2F42;
+}
+
+.gallery-list {}
+
+.gallery-item {}
+
+.gallery-art {}
+
+/* ---------------section teamcard----------- */
+
+.section-teamcard {}
+
+.teamcard-header-a {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 40px;
+	text-align: center;
+	letter-spacing: 0.02em;
+	color: #2E2F42;
+}
+
+.teamcard-list {}
+
+.teamcard-foto {
+	width: 264px;
+	height: 260px;
+}
+
+.teamcard-header {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	letter-spacing: 0.02em;
+	color: #2E2F42;
+}
+
+.teamcard-text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: calc(24 / 16);
+	letter-spacing: 0.02em;
+	color: #434455;
+}
+
+.teamcard-item {}
 
 
-	/* ------------------фильтр в портфолио-------- */
-	/* спрятать заголовок */
-	.main-header {}
+.section-client {}
 
-	.main-btn {}
+.client-header {}
 
-	.main-list {}
+.client-list {}
 
-	---------------- .benefits-header {}
-
-	.benefits-list {}
-
-	.benefits-item {}
-
-	.benefits-link {}
-
-	.benefits-text {}
+.client-foto {}
 
 
-	.section-gallery {}
+.footer {
+	background: #2E2F42;
 
-	.gallery-header {}
+}
 
-	.gallery-list {}
+.footer-link {
+	font-weight: 800;
+	font-size: 18px;
+	line-height: calc(21 / 18);
+	letter-spacing: 0.03em;
+	color: #F4F4FD;
+}
 
-	.gallery-item {}
+.footer-text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: calc(24 / 16);
+	letter-spacing: 0.02em;
+	color: #E7E9FC;
+}
 
-	.gallery-art {}
+.footer-header {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: calc(24 / 16);
+	letter-spacing: 0.02em;
+	color: #FFFFFF;
+}
 
+.footer-list {}
 
-	.section-teamcard {}
-
-	.teamcard-header {}
-
-	.teamcard-list {}
-
-	.teamcard-foto {}
-
-	.teamcard-text {}
-
-	.teamcard-item {}
-
-
-	.section-client {}
-
-	.client-header {}
-
-	.client-list {}
-
-	.client-foto {}
-
-
-	.footer {
-		background: #2E2F42;
-
-	}
-
-	.footer-link {
-		font-weight: 800;
-		font-size: 18px;
-		line-height: calc(21 / 18);
-		letter-spacing: 0.03em;
-		color: #F4F4FD;
-	}
-
-	.footer-text {
-		font-weight: 400;
-		font-size: 16px;
-		line-height: calc(24 / 16);
-		letter-spacing: 0.02em;
-		color: #E7E9FC;
-	}
-
-	.footer-header {
-		font-weight: 500;
-		font-size: 16px;
-		line-height: calc(24 / 16);
-		letter-spacing: 0.02em;
-		color: #FFFFFF;
-	}
-
-	.footer-list {}
-
-	.footer-item {
-		font-weight: 500;
-		font-size: 16px;
-		line-height: calc(24 / 16);
-		letter-spacing: 0.02em;
-		color: #FFFFFF;
-	}
+.footer-item {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: calc(24 / 16);
+	letter-spacing: 0.02em;
+	color: #FFFFFF;
+}
 
 
 
@@ -177,19 +303,19 @@ body {
 
 
 
-	/* образец
+/* образец
 	/* font-weight: 700;
 	font-size: 56px;
 	line-height: 60px;
 	letter-spacing: 0.02em;
 	color: #FFFFFF; */
 
-	/* * {
+/* * {
 		color: tomato;
 		font-family: 'Raleway', sans-serif;
 	}
 	*/
-	/* приховати заголовок
+/* приховати заголовок
 		.visually-hidden {
 		position: absolute;
 		white-space: nowrap;
