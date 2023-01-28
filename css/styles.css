@@ -13,14 +13,20 @@
 	text-style: none;
 }
 
+.list {
+	list-style: none;
+}
+
 /* ----------------------шапка сайта---------------- */
 
-.header {}
+.header {
+	background-color: lightslategrey;
+}
 
 .header-navigator {}
 
 .header-logo {
-	font-weight: 800;
+	font-family: 'Raleway', sans-serif;
 	font-size: 18px;
 	line-height: calc(24 / 18);
 	letter-spacing: 0.03em;
@@ -29,7 +35,7 @@
 }
 
 .logo-web {
-	color: #4D5AE5;
+	color: #4D5AE5
 }
 
 .header-list {
@@ -40,7 +46,13 @@
 	color: #2E2F42;
 }
 
-.header-item {}
+.header-item {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.02em;
+	color: #2E2F42;
+}
 
 .header-address {
 	font-weight: 400;
@@ -72,7 +84,8 @@
 	background: #4D5AE5;
 	font-weight: 500;
 	font-size: 16px;
-	line-height: calc(24 / 16) letter-spacing: 0.04em;
+	line-height: calc(24 / 16);
+	letter-spacing: 0.04em;
 	color: #FFFFFF;
 }
 
@@ -89,15 +102,11 @@
 	letter-spacing: 0.04em;
 }
 
-.main-header {
-	font-size: 0;
-}
-
 .main-list-a {
 	font-family: 'Roboto';
 	width: 69px;
 	height: 48px;
-	background: #404BBF;
+	background: #686fc1;
 	color: #FFFFFF;
 }
 
@@ -129,11 +138,6 @@
 
 .section-benefits {}
 
-/* треба сховати заголовок h2*/
-.benefits-header-a {
-	font-size: 0;
-}
-
 .benefits-header {
 	width: 264px;
 	height: 24px;
@@ -152,7 +156,6 @@
 	width: 264px;
 	height: 72px;
 	color: #434455;
-	font-weight: 400;
 	font-size: 16px;
 	line-height: calc(24 / 16);
 	letter-spacing: 0.02em;
@@ -160,8 +163,17 @@
 
 .section-gallery {}
 
-.gallery-header-portfolio {
-	font-size: 0;
+.visually-hidden {
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	border: 0;
+	padding: 0;
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	margin: -1px;
 }
 
 .gallery-link {
@@ -183,7 +195,6 @@
 .gallery-text-b {
 	width: 30px;
 	height: 24px;
-	font-weight: 400;
 	font-size: 16px;
 	line-height: calc(24 / 16);
 	letter-spacing: 0.02em;
@@ -211,7 +222,6 @@
 .section-teamcard {}
 
 .teamcard-header-a {
-	font-weight: 700;
 	font-size: 36px;
 	line-height: 40px;
 	text-align: center;
@@ -235,7 +245,6 @@
 }
 
 .teamcard-text {
-	font-weight: 400;
 	font-size: 16px;
 	line-height: calc(24 / 16);
 	letter-spacing: 0.02em;
@@ -244,6 +253,7 @@
 
 .teamcard-item {}
 
+/* ------------------SECTION CLIENT------------- */
 
 .section-client {}
 
@@ -253,10 +263,10 @@
 
 .client-foto {}
 
+/* --------------------FOOTER----------------- */
 
 .footer {
 	background: #2E2F42;
-
 }
 
 .footer-link {
@@ -268,7 +278,6 @@
 }
 
 .footer-text {
-	font-weight: 400;
 	font-size: 16px;
 	line-height: calc(24 / 16);
 	letter-spacing: 0.02em;
@@ -294,36 +303,18 @@
 }
 
 
+/* .header-logo:is(:hover, :focus) {
+	color: #31D0AA;
+}
 
+.header-item:is(:hover, :focus) {
+	color: #31D0AA;
+}
 
+.header-infoadress:is(:hover, :focus) {
+	color: #31D0AA;
+}
 
-
-
-
-
-
-
-/* образец
-	/* font-weight: 700;
-	font-size: 56px;
-	line-height: 60px;
-	letter-spacing: 0.02em;
-	color: #FFFFFF; */
-
-/* * {
-		color: tomato;
-		font-family: 'Raleway', sans-serif;
-	}
-	*/
-/* приховати заголовок
-		.visually-hidden {
-		position: absolute;
-		white-space: nowrap;
-		width: 1px;
-		height: 1px;
-		overflow: hidden;
-		border: 0;
-		padding: 0;
-		clip: rect(0 0 0 0);
-		clip-path: inset(50%);
-		margin: -1px; */
+.header-infotelefon:is(:hover, :focus) {
+	color: #31D0AA;
+} */
