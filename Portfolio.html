@@ -12,97 +12,85 @@
 	<link rel="stylesheet" href="./css/styles.css">
 </head>
 
-<!-- Шапка сайта-->
+<!-- hero image-->
 
 <body>
 
 	<header class="header">
-				<style>
-					li {
-						list-style-type: none;
-						/* Убираем маркеры */
-					}
-					ul {
-						margin-left: 0;
-						/* Отступ слева в браузере IE и Opera */
-						padding-left: 0;
-						/* Отступ слева в браузере Firefox, Safari, Chrome */
-					}
-				</style>
 		<nav class="header-navigator">
 			<a class="header-logo" href="./index.html">
 			<a href="./index.html"><span class="logo-web">Web</span>Studio</a>
 			<ul class="header-list">
-				<li class="header-item"><a href="">Studio</a></li>
-				<li class="header-item"><a href="">Portfolio</a></li>
-				<li class="header-item"><a href="">Contacts</a></li>
+				<li class="header-link"><a href="./index.html">Studio</a></li>
+				<li class="header-link"><a href="./Portfolio.html">Portfolio</a></li>
+				<li class="header-link"><a href="">Contacts</a></li>
 			</ul>
 		</nav>
 		<address>
 			<ul class="header-address">
-				<li class="header-infoadress"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-				<li class="header-infotelefon"><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+				<li class="header-adress-link"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+				<li class="header-telefon-link"><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
 			</ul>
 		</address>
 	</header>
 
-	<!-- список фильтр(кнопоки), прихований заголовок-->
+	<!-- Filters portfolio, section first. прихований заголовок-->
 	<main>
-		<section class="main-btn">
+		<section class="section-filters">
 			<h5 class="visually-hidden">navigation links</h5>
-			<button class="main-list-a" type="button">All</button>
-			<button class="main-list-b" type="button">Web Site</button>
-			<button class="main-list-c" type="button">App</button>
-			<button class="main-list-d" type="button">Design</button>
-			<button class="main-list-e" type="button">Marketing</button>
+			<button class="filter-btn-all" type="button">All</button>
+			<button class="filter-btn-web" type="button">Web Site</button>
+			<button class="filter-btn-app" type="button">App</button>
+			<button class="filter-btn-design" type="button">Design</button>
+			<button class="filter-btn-marketing" type="button">Marketing</button>
 		</section>
 
-			<!-- секция с галереей фото -->
+			<!-- section gallery portfolio. прихований заголовок -->
 
-			<section class="section-gallery">
-				<h2 class="visually-hidden">Gallery foto app</h2>
-				<ul class="gallery-list">
-					<li class="gallery-item">
+			<section>
+				<h6 class="visually-hidden">Gallery foto app</h6>
+				<ul>
+					<li>
 						<img  class="gallery-link" src="./images/portfolio-gallerey1.jpg" alt="Application interface" width="360" height="300">
 						<p class="gallery-text-a">Banking App Interface Concept</p>
 						<p class="gallery-text-b">App</p>
 					</li>
-					<li class="gallery-item">
+					<li>
 						<img  class="gallery-link" src="./images/portfolio-gallerey2.jpg" alt="Cashless Payment" width="360" height="300">
 						<p class="gallery-text-a">Cashless Payment</p>
 						<p class="gallery-text-b">Marketing</p>
 					</li>
-					<li class="gallery-item">
+					<li>
 						<img  class="gallery-link" src="./images/portfolio-gallerey3.jpg" alt="Meditaion App" width="360" height="300">
 						<p class="gallery-text-a">Meditaion App</p>
 						<p class="gallery-text-b">App</p>
 					</li>
-					<li class="gallery-item">
+					<li>
 						<img  class="gallery-link" src="./images/portfolio-gallerey4.jpg" alt="Сar torpedo and phone" width="360" height="300">
 						<p class="gallery-text-a">Taxi Service</p>
 						<p class="gallery-text-b">Marketing</p>
 					</li>
-					<li class="gallery-item">
+					<li>
 						<img  class="gallery-link" src="./images/portfolio-gallerey5.jpg" alt="phone screen" width="360" height="300">
 						<p class="gallery-text-a">Screen Illustrations</p>
 						<p class="gallery-text-b">Design</p>
 					</li>
-					<li class="gallery-item">
+					<li>
 						<img  class="gallery-link" src="./images/portfolio-gallerey6.jpg" alt="girl looks at the screen of the phone and smiles" width="360" height="300">
 						<p class="gallery-text-a">Online Courses</p>
 						<p class="gallery-text-b">Marketing</p>
 					</li>
-					<li class="gallery-item">
+					<li>
 						<img  class="gallery-link" src="./images/portfolio-gallerey7.jpg" alt="Design Instagram Stories Concept" width="360" height="300">
 						<p class="gallery-text-a">Instagram Stories Concept</p>
 						<p class="gallery-text-b">Design</p>
 					</li>
-					<li class="gallery-item">
+					<li>
 						<img  class="gallery-link" src="./images/portfolio-gallerey8.jpg" alt="girl carrying vegetables" width="360" height="300">
 						<p class="gallery-text-a">Organic Food</p>
 						<p class="gallery-text-b">WebSite</p>
 					</li>
-					<li class="gallery-item">
+					<li>
 						<img  class="gallery-link" src="./images/portfolio-gallerey9.jpg" alt="moment of coffee preparation" width="360" height="300">
 						<p class="gallery-text-a">Fresh Coffee</p>
 						<p class="gallery-text-b">WebSite</p>
@@ -117,14 +105,6 @@
 	<footer class="footer">
 		<a class="footer-link" href="./index.html"><span class="logo-web">Web</span> Studio</a>
 		<p class="footer-text" >Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
-
-		<h3 class="footer-header" >Social media</h3>
-		<ul class="footer-list">
-			<li class="footer-item"><a href="" aria-label="Ссылка на Instagram">Instagram</a></li>
-			<li class="footer-item"><a href="" aria-label="Ссылка на Twitter">Twitter</a></li>
-			<li class="footer-item"><a href="" aria-label="Ссылка на Facebook">Facebook</a></li>
-			<li class="footer-item"><a href="" aria-label="Ссылка на LinkedIn">LinkedIn</a></li>
-		</ul>
 
 	</footer>
 	</body>

@@ -1,60 +1,50 @@
+* {
+	margin: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
 .body {
 	font-family: 'Roboto', sans-serif;
 	font-style: normal font-size;
 	color: #2E2F42;
 	background: #E5E5E5;
+	font-weight: 500;
+
 }
 
-.link {
-	text-decoration: none;
+.header-link:hover,
+.header-link:focus,{
+	color: var(--title-text-color);
 }
 
-.link {
-	text-style: none;
-}
-
-.list {
-	list-style: none;
-}
-
-/* ----------------------шапка сайта---------------- */
+/* ----------------------Top Line---------------- */
 
 .header {
-	background-color: lightslategrey;
+	background-color: #E7E9FC;
 }
-
-.header-navigator {}
 
 .header-logo {
 	font-family: 'Raleway', sans-serif;
 	font-size: 18px;
 	line-height: calc(24 / 18);
 	letter-spacing: 0.03em;
-	color: #4D5AE5;
 	color: #2E2F42;
 }
 
 .logo-web {
-	color: #4D5AE5
+	color: #4D5AE5;
 }
 
-.header-list {
-	font-weight: 500;
+.header-link {
 	font-size: 16px;
-	line-height: 24px;
-	letter-spacing: 0.02em;
-	color: #2E2F42;
-}
-
-.header-item {
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 24px;
+	line-height: calc(24 / 16);
 	letter-spacing: 0.02em;
 	color: #2E2F42;
 }
 
 .header-address {
+	font-style: normal;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: calc(24 / 16);
@@ -62,106 +52,29 @@
 	color: #434455;
 }
 
-.header-infoadress {}
+/* ------------------hero image------------ */
 
-.header-infotelefon {}
-
-/* --------------------герой---------------------- */
-
-.section-btn {
-	background: rgba(46, 47, 66, 0.7);
+.section-hero {
+	background: #2E2F42;
 }
 
-.section-header {
-	font-weight: 700;
+.section-title {
 	font-size: 56px;
 	line-height: calc(60 / 56);
 	letter-spacing: 0.02em;
 	color: #FFFFFF;
 }
 
-.button-btn {
+.section-btn {
 	background: #4D5AE5;
-	font-weight: 500;
+	font-family: 'Roboto';
 	font-size: 16px;
 	line-height: calc(24 / 16);
 	letter-spacing: 0.04em;
 	color: #FFFFFF;
 }
 
-/* ------------------фильтр в портфолио-------- */
-/* спрятать заголовок */
-
-.main-btn {
-	font-family: 'Roboto';
-	background: #F4F4FD;
-	color: #4D5AE5;
-	font-weight: 500;
-	font-size: 16px;
-	line-height: calc(24 / 16);
-	letter-spacing: 0.04em;
-}
-
-.main-list-a {
-	font-family: 'Roboto';
-	width: 69px;
-	height: 48px;
-	background: #686fc1;
-	color: #FFFFFF;
-}
-
-.main-list-b {
-	font-family: 'Roboto';
-	width: 116px;
-	height: 48px;
-}
-
-.main-list-c {
-	font-family: 'Roboto';
-	width: 78px;
-	height: 48px;
-}
-
-.main-list-d {
-	font-family: 'Roboto';
-	width: 101px;
-	height: 48px;
-}
-
-.main-list-e {
-	font-family: 'Roboto';
-	width: 126px;
-	height: 48px;
-}
-
-/* -----------секция в index.html----------- */
-
-.section-benefits {}
-
-.benefits-header {
-	width: 264px;
-	height: 24px;
-	color: #2E2F42;
-	font-weight: 500;
-	font-size: 20px;
-	line-height: calc(24 /20);
-	letter-spacing: 0.02em;
-}
-
-.benefits-list {}
-
-.benefits-item {}
-
-.benefits-text {
-	width: 264px;
-	height: 72px;
-	color: #434455;
-	font-size: 16px;
-	line-height: calc(24 / 16);
-	letter-spacing: 0.02em;
-}
-
-.section-gallery {}
+/* ---------Filters portfolio, section first. прихований заголовок------------ */
 
 .visually-hidden {
 	position: absolute;
@@ -176,92 +89,123 @@
 	margin: -1px;
 }
 
-.gallery-link {
-	width: 360px;
-	height: 300px;
+.section-filters {
+	background: #404BBF;
+	background: #F4F4FD;
 }
 
-.gallery-text-a {
-	width: 290px;
-	height: 24px;
-	font-weight: 500;
+.filter-btn-all {
+	background: #404BBF;
+	font-size: 16px;
+	line-height: calc(24 / 16);
+	font-family: 'Roboto';
+	letter-spacing: 0.04em;
+	color: #FFFFFF;
+}
+
+.filter-btn-web {
+	background: #F4F4FD;
+	font-size: 16px;
+	line-height: calc(24 / 16);
+	font-family: 'Roboto';
+	letter-spacing: 0.04em;
+	color: #4D5AE5;
+}
+
+.filter-btn-app {
+	background: #F4F4FD;
+	font-size: 16px;
+	line-height: calc(24 / 16);
+	font-family: 'Roboto';
+	letter-spacing: 0.04em;
+	color: #4D5AE5;
+}
+
+.filter-btn-design {
+	background: #F4F4FD;
+	font-size: 16px;
+	line-height: calc(24 / 16);
+	font-family: 'Roboto';
+	letter-spacing: 0.04em;
+	color: #4D5AE5;
+}
+
+.filter-btn-marketing {
+	background: #F4F4FD;
+	font-size: 16px;
+	line-height: calc(24 / 16);
+	font-family: 'Roboto';
+	letter-spacing: 0.04em;
+	color: #4D5AE5;
+}
+
+/* 
+--------------Section 1 Strategy, заголовок спрятать-------- */
+.benefits-header {
 	font-size: 20px;
 	line-height: calc(24 / 20);
 	letter-spacing: 0.02em;
 	color: #2E2F42;
-	;
 }
 
-.gallery-text-b {
-	width: 30px;
-	height: 24px;
+.benefits-text {
+	font-weight: 400;
 	font-size: 16px;
 	line-height: calc(24 / 16);
 	letter-spacing: 0.02em;
 	color: #434455;
 }
 
-/* --------gallerey in index.html-------------- */
+/* -------section gallery portfolio. прихований заголовок-------- */
 
-.section-gallery {
-	font-weight: 700;
+.gallery-text-a {
+	line-height: calc(24 / 20);
+	letter-spacing: 0.02em;
+	color: #2E2F42;
+}
+
+.gallery-text-b {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: calc(24 / 20);
+	letter-spacing: 0.02em;
+	color: #434455;
+}
+
+/* ---Section 2/What are we doing---- */
+
+.gallery-header {
 	font-size: 36px;
 	line-height: calc(40 / 36);
 	letter-spacing: 0.02em;
 	color: #2E2F42;
 }
 
-.gallery-list {}
-
-.gallery-item {}
-
-.gallery-art {}
-
-/* ---------------section teamcard----------- */
-
-.section-teamcard {}
-
+/*------ fifth section with photos of specialists ----*/
+.section-teamcard {
+	background: #F4F4FD;
+}
 .teamcard-header-a {
 	font-size: 36px;
-	line-height: 40px;
-	text-align: center;
+	line-height: calc(40 /36);
 	letter-spacing: 0.02em;
 	color: #2E2F42;
 }
-
-.teamcard-list {}
-
-.teamcard-foto {
-	width: 264px;
-	height: 260px;
+.teamcard-list {
+	background: #FFFFFF;
 }
-
 .teamcard-header {
-	font-weight: 500;
-	font-size: 20px;
-	line-height: 24px;
+	line-height: calc(24 / 20);
 	letter-spacing: 0.02em;
 	color: #2E2F42;
 }
-
 .teamcard-text {
-	font-size: 16px;
-	line-height: calc(24 / 16);
+	font-weight: 400;
+	line-height: 24px;
+	font-size: calc(16 / 24);
 	letter-spacing: 0.02em;
 	color: #434455;
 }
-
-.teamcard-item {}
-
-/* ------------------SECTION CLIENT------------- */
-
-.section-client {}
-
-.client-header {}
-
-.client-list {}
-
-.client-foto {}
 
 /* --------------------FOOTER----------------- */
 
@@ -285,36 +229,16 @@
 }
 
 .footer-header {
-	font-weight: 500;
 	font-size: 16px;
 	line-height: calc(24 / 16);
 	letter-spacing: 0.02em;
 	color: #FFFFFF;
 }
-
-.footer-list {}
 
 .footer-item {
-	font-weight: 500;
 	font-size: 16px;
 	line-height: calc(24 / 16);
 	letter-spacing: 0.02em;
 	color: #FFFFFF;
 }
 
-
-/* .header-logo:is(:hover, :focus) {
-	color: #31D0AA;
-}
-
-.header-item:is(:hover, :focus) {
-	color: #31D0AA;
-}
-
-.header-infoadress:is(:hover, :focus) {
-	color: #31D0AA;
-}
-
-.header-infotelefon:is(:hover, :focus) {
-	color: #31D0AA;
-} */
