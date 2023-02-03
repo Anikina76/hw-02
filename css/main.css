@@ -1,15 +1,20 @@
 :root {
+	--logo-color: #4D5AE5;
+	--background-btn: #4D5AE5;
+	--hover-focus-color: #4D5AE5;
+	--btn-hover-focus-color: #404BBF;
+	--filter-btn-color: #4D5AE5;
 	--primary-text-color: #2E2F42;
-	--title-text-color: #ffffff;
-	--link-text-color: #434455;
-	--background-color: #FFFFFF;
 	--background-color-accent: #2E2F42;
+	--title-text-color: #ffffff;
+	--background-color: #FFFFFF;
+	--link-text-color: #434455;
+	--text-footer: #F4F4FD;
+	--teamcard-background-color: #F4F4FD;
 }
-
 
 body {
 	font-family: "Roboto", sans-serif;
-	font-weight: 500;
 	color: var(--primary-text-color);
 }
 
@@ -39,46 +44,34 @@ body {
 	line-height: 1.33;
 	letter-spacing: 0.03em;
 	color: var(--primary-text-color);
+	text-transform: uppercase;
 }
 
 .logo-web {
-	color: #4D5AE5;
+	color: var(--logo-color);
 }
 
-.header-link,
-.header-adress-link,
-.header-telefon-link {
-	font-family: 'Roboto';
+.header-link {
 	font-style: normal;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	color: var(--primary-text-color);
+	cursor: pointer;
 }
 
-.header-adress-link,
-.header-telefon-link {
+.header-link {
 	color: var(--link-text-color);
 }
 
 .header-link:focus,
 .header-link:hover {
-	color: #4D5AE5;
-}
-
-.header-adress-link,
-.header-telefon-link:hover {
-	color: #4D5AE5;
-}
-
-.header-adress-link,
-.header-telefon-link:focus {
-	color: #4D5AE5;
+	color: var(--hover-focus-color);
 }
 
 .header-link.current {
-	color: #4D5AE5;
+	color: var(--hover-focus-color);
 }
 
 /* ------------------hero image------------ */
@@ -92,12 +85,13 @@ body {
 	font-size: 56px;
 	line-height: 1.07;
 	letter-spacing: 0.02em;
-	color: #ffffff;
+	color: var(--title-text-color);
 }
 
 .section-btn {
-	background: #4D5AE5;
-	font-weight: 169px;
+	font-family: inherit;
+	background: var(--background-btn);
+	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.04em;
@@ -106,23 +100,26 @@ body {
 
 .section-btn:hover,
 .section-btn:focus {
-	color: #4D5AE5;
-	background: #FFFFFF;
+	background: var(--btn-hover-focus-color)
 }
 
-/* ------------------hero image------------ */
+/* --------------
+----hero image------------ */
 .filter-btn {
-	background: #F4F4FD;
+	font-family: 'Roboto', sans-serif;
+	background: var(--teamcard-background-color);
+	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.04em;
-	color: #4D5AE5;
+	color: var(--filter-btn-color);
+	cursor: pointer;
 }
 
 .filter-btn:hover,
 .filter-btn:focus {
 	color: var(--title-text-color);
-	background: #4D5AE5;
+	background: var(--hover-focus-color);
 	;
 }
 
@@ -140,13 +137,13 @@ body {
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
-	color: #434455;
-	font-style: normal;
+	color: var(--link-text-color);
 }
 
 /* -------section gallery portfolio. прихований заголовок-------- */
 
 .gallery-text-a {
+	font-weight: 500;
 	line-height: 1.2;
 	letter-spacing: 0.02em;
 	color: var(--primary-text-color);
@@ -154,11 +151,10 @@ body {
 }
 
 .gallery-text-b {
-	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.2;
 	letter-spacing: 0.02em;
-	color: #434455;
+	color: var(--link-text-color);
 }
 
 /* ---Section 2/What are we doing---- */
@@ -174,7 +170,7 @@ body {
 /*------ fifth section with photos of specialists ----*/
 
 .teamcard {
-	background: #F4F4FD;
+	background: var(--teamcard-background-color)
 }
 
 .teamcard-header-a {
@@ -187,7 +183,8 @@ body {
 }
 
 .teamcard-header {
-	font-weight: 700;
+	font-weight: 500;
+	font-size: 20px;
 	line-height: 1.2;
 	letter-spacing: 0.02em;
 	color: var(--primary-text-color);
@@ -195,10 +192,10 @@ body {
 }
 
 .teamcard-text {
-	line-height: 16px;
-	font-size: 1.5;
+	font-size: 16px;
+	line-height: 1.5;
 	letter-spacing: 0.02em;
-	color: #434455;
+	color:var(--link-text-color);
 	background: var(--background-color);
 }
 
@@ -215,16 +212,12 @@ body {
 	font-size: 18px;
 	line-height: 1.33;
 	letter-spacing: 0.03em;
-	color: #F4F4FD;
-}
-
-.logo-web {
-	color: #4D5AE5;
+	color: var(--text-footer);
 }
 
 .footer-text {
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
-	color: #F4F4FD;
+	color: var(--text-footer);
 }
