@@ -37,7 +37,8 @@ body {
 }
 
 .logo-link,
-.logo-web {
+.logo-web,
+.footer-link {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 800;
 	font-size: 18px;
@@ -45,6 +46,10 @@ body {
 	letter-spacing: 0.03em;
 	color: var(--primary-text-color);
 	text-transform: uppercase;
+}
+
+.footer-link {
+	color: var(--text-footer);
 }
 
 .logo-web {
@@ -61,8 +66,10 @@ body {
 	cursor: pointer;
 }
 
-.header-link {
+.header-link .header-address,
+.header-link .header-telefon {
 	color: var(--link-text-color);
+	font-weight: 400;
 }
 
 .header-link:focus,
@@ -147,7 +154,6 @@ body {
 	line-height: 1.2;
 	letter-spacing: 0.02em;
 	color: var(--primary-text-color);
-	font-weight: 500;
 }
 
 .gallery-text-b {
@@ -195,7 +201,7 @@ body {
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
-	color:var(--link-text-color);
+	color: var(--link-text-color);
 	background: var(--background-color);
 }
 
@@ -203,16 +209,6 @@ body {
 
 .footer {
 	background: var(--background-color-accent);
-
-}
-
-.footer-link {
-	font-family: 'Raleway', sans-serif;
-	font-weight: 800;
-	font-size: 18px;
-	line-height: 1.33;
-	letter-spacing: 0.03em;
-	color: var(--text-footer);
 }
 
 .footer-text {
